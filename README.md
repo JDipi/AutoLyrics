@@ -7,7 +7,7 @@
 > Do you have a bunch of mp3 files you want to add lyrics to, but don't want to copy paste lyrics from Genius.com? Well this Electron app is perfect for you!
 
 ___
-This is my first Electron app, which I wrote as an improvement of (my python version)[insert link later]. It works by scraping Genius.com or Azlyrics.com (i'll probably add other sources) and writing the lyrics to any selected file.
+This is my first Electron app, which I wrote as an improvement of [my python version](https://github.com/JDipi/AutoLyrics-python). It works by scraping Genius.com or Azlyrics.com (i'll probably add other sources) and writing the lyrics to any selected file.
 
 
 ![image](https://user-images.githubusercontent.com/48573618/202002595-3aa69cfb-fea8-4387-bdc5-a679c66a0ffa.png)
