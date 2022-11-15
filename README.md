@@ -2,6 +2,8 @@
 
 ### By JDipi
 
+### [CLI version made with Python!](https://github.com/JDipi/AutoLyrics-python)
+
 > Do you have a bunch of mp3 files you want to add lyrics to, but don't want to copy paste lyrics from Genius.com? Well this Electron app is perfect for you!
 
 ___
