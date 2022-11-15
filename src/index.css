@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* For AppBar */
+.draggable {
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+
+.undraggable {
+  -webkit-app-region: no-drag;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  margin-left: 5px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 100vh;
+  border: 3px solid #a8a8a8;
+}
+
+input[type=radio]:checked + label > p {
+  background-color: #2a303c;
+}
+
+input[type=radio] + label > p ~ span {
+  display: none;
+}
+
+input[type=radio]:checked + label > p ~ span {
+  display: flex;
+}
+
+
+input[name=songs]:checked + .songResult {
+  color: hsl(var(--p) / var(--tw-text-opacity));
+  border-bottom-color: hsl(var(--p) / var(--tw-text-opacity));
+}
+/* 
+* {
+  border: 1px solid red;
+} */
