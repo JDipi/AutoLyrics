@@ -1,37 +1,24 @@
-# Vite + React + Typescript + Electron - Starter
+# AutoLyrics
 
-![Vite + React + Typescript + Tailwind + Electron Starter](Screenshot.jpg)
+### By JDipi
 
-> It is a simple starter tempalte without unnecessary packages.
+> Do you have a bunch of mp3 files you want to add lyrics to, but don't want to copy paste lyrics from Genius.com? Well this Electron app is perfect for you!
 
-This very simple Starter template, utilizes [Vite](https://github.com/vitejs/vite), [Tailwind](https://tailwindcss.com/), [React](https://reactjs.org/), [Typescript](https://www.typescriptlang.org/) and [Electron](https://electronjs.org/).
+___
+This is my first Electron app, which I wrote as an improvement from (my python version)[insert link later]. It works by scraping Genius.com or Azlyrics.com (i'll probably add other sources) and writing the lyrics to any selected file.
 
-By default, the React framework is used for the interface, but you can easily use any other framework such as Vue, Preact, Angular, Svelte or anything else.
 
-> Vite is framework agnostic
+![image](https://user-images.githubusercontent.com/48573618/202002595-3aa69cfb-fea8-4387-bdc5-a679c66a0ffa.png)
 
-## Installation
 
-Clone this repo and install all dependencies  
-`yarn` or `npm install`
+___
+Theres a bunch of stuff I still need to fix I just wanted to start learning Git by pushing my code to this repo
 
-## Development
-
-`yarn dev` or `npm run dev`
-
-## Build
-
-`yarn build` or `npm run build`
-
-## Publish
-
-`yarn dist` or `npm run dist`
-
-## More advanced templates  
-
-If you are looking for more advanced templates than this, please go to one of the following links (these are some other links out of the **[awesome-vite](https://github.com/vitejs/awesome-vite)** repo) or you can help me make this template better 🙂  
-
-Links: 
-- [vite-react-electron](https://github.com/caoxiemeihao/vite-react-electron)
-- [electron-vite-react](https://github.com/twstyled/electron-vite-react)
-- [vite-electron-esbuild-starter](https://github.com/jctaoo/vite-electron-esbuild-starter)
+Will fix soon:
+- Either get rid of or add some actions to the file/menu bar
+- Allow a way for the user to write or change common tags other than lyrics (title, artist, album, album cover)
+- Clean up some css and figure out something to fill up the empty space in the lower middle
+- Figure out how to make a "release" on GitHub
+- Make a logo for the title bar
+- Get all of the title bar actions to work
+- Weird bug where the tooltips are cloned and stacked on each other
